@@ -107,10 +107,10 @@ class Ball {
     constructor(){
         this.x = Math.random() * (canvas.width - 50)
         this.y = canvas.height
-        this.speedY = Math.random() * 4 + 1.5
+        this.speedY = Math.random() * 2 + 1.5
         this.speedX = Math.random() * 2 - 1
         this.circle;
-        this.size =  Math.random() * 15 + 15;
+        this.size =  Math.random() * 15 + 20;
     }
     update(){
         this.y -= this.speedY;
